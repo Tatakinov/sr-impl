@@ -83,3 +83,10 @@ pytorchのモデルをonnxのモデルに変換します。引数はモデルの
 
 onnxruntimeはもしかしたら自分でビルドする必要があるかもしれません。(エラーがたくさん出て失敗するため)
 その場合はCMakeが必要になったり`pip install cmake`する必要があると思います。
+
+## LICENSE
+
+基本的にはMIT-0ですが、ソースファイルにライセンスの記述があるものはそちらが優先されます。
+
+また、以下のソースコードを参考にしています。
+[ONNXRuntime-example](https://github.com/microsoft/onnxruntime-inference-examples/blob/main/c_cxx/MNIST/MNIST.cpp) / MIT License (C) Microsoft
